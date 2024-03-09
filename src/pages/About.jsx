@@ -53,6 +53,10 @@ const About = () => {
                 printer took a galley of type and scrambled it to make a type 
                 specimen book.
                 </p>
+                <h6>Locally Recommended</h6>
+                <span>80%</span>
+                <h6>Projects Completed Successfully</h6>
+                <span>90%</span>
             </div>
         </div>
     </div>

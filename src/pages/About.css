@@ -79,4 +79,28 @@ h1 {
 .content-text p {
   line-height: 2.5;
   width: 70%;
+  margin: 0 0 20px;
+}
+
+.content-text span:nth-child(5) {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  background-color: #3c409f;
+  color: #fff;
+  padding: 10px 0 10px 300px;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: end;
+}
+.content-text span:nth-child(7) {
+  display: flex;
+  width: 60%;
+  height: 40px;
+  background-color: #3c409f;
+  color: #fff;
+  padding: 10px 0 10px 380px;
+  font-weight: 700;
+  margin: 10px 0;
+  align-items: flex-end;
 }
