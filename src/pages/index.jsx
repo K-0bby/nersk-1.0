@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import { Link } from 'react-router-dom';
+import '../index.css'
 import './home.css'
 
 const index = () => {
