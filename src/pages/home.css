@@ -1,0 +1,31 @@
+.home {
+  background: url(../images/black-scientists-fotor-20231127115247.png);
+  background-size: cover;
+  font-family: "Inter";
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 200px 70px;
+  padding: 20px 0;
+  width: 45%;
+  color: #fff;
+}
+span {
+  color: #e4e755;
+}
+.content h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+.content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.content a {
+  background-color: #e4e755;
+  padding: 10px 20px;
+  width: 120px;
+  color: #fff;
+}

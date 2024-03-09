@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Inter";
+}
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav-logo h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.nav-logo p {
+  font-size: 10px;
+  color: #fff;
+}
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+.nav-links li a {
+  color: #fff;
+}
+.button {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+}
+.button a {
+  color: #fff;
+}
