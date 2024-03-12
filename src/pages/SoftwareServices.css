@@ -1,0 +1,76 @@
+.SoftwareServicesPage {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+.contentPage .title {
+  color: #000;
+  font-size: 30px;
+  margin: 45px 0;
+}
+.contentPage img {
+  width: 100vw;
+}
+.contentPage .btn {
+  font-family: "Inter";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0 10px;
+  gap: 20px;
+}
+.btn .btn-1 {
+  background-color: #dcd9d9;
+  color: #000;
+  width: 150px;
+  height: 35px;
+  padding: 5px 30px;
+}
+.btn .btn-2 {
+  background-color: #3d3c3c;
+  color: #fff;
+  width: 200px;
+  height: 35px;
+  padding: 5px 30px;
+}
+.contentPage p {
+  font-family: "Inter";
+  text-align: center;
+}
+.contentPage .article {
+  display: flex;
+  justify-content: center;
+  margin: 45px 0;
+  padding: 20px 20px;
+  line-height: 2.5;
+  gap: 70px;
+}
+.article p {
+  width: 30%;
+  text-align: justify;
+}
+.contentPage h2 {
+  font-family: "Inter";
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+}
+.card img {
+  width: 90px;
+}

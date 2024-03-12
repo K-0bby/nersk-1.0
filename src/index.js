@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import AboutPage from './pages/About'
 import CaseStudies from './pages/CaseStudies'
+import SoftwareServices from './pages/SoftwareService'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "CaseStudies",
     element: <CaseStudies/>,
+  },
+  {
+    path: "SoftwareServices",
+    element: <SoftwareServices/>,
   },
 ]);
 

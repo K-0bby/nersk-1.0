@@ -11,7 +11,7 @@ const software = () => {
         <p>Save GHC 345 on purchase</p>
         <div className="bottom">
           <div className="buttons">
-          <Link to='/' className='btn-1'>Order Now</Link>
+          <Link to='/SoftwareServices' className='btn-1'>Order Now</Link>
           <Link to='/' className='btn-2'>Try Free Version</Link>
           </div>
           <p>Order any of our Agric Products  and service for a better performance of your 
