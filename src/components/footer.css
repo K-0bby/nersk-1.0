@@ -102,3 +102,16 @@ button[type="submit"] {
   cursor: pointer;
   outline: none;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 10px 10px;
+  }
+  .footer-logo .logo-title {
+    font-size: 20px;
+  }
+  .footer-logo .logo-subtitle {
+    font-size: 8px;
+  }
+}

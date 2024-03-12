@@ -1,0 +1,91 @@
+.CaseStudies {
+  max-width: 100%;
+  height: auto;
+  font-family: "Montserrat", "Inter";
+}
+.CaseStudies--1 img {
+  object-fit: cover;
+}
+.CaseStudies--1,
+.CaseStudies--2 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px;
+  margin: 50px 0;
+}
+.CaseStudies-text {
+  padding: 20px 0;
+}
+.CaseStudies-text h5 {
+  color: #3c409f;
+  margin: 10px 0;
+}
+.CaseStudies-text h3 {
+  font-size: 35px;
+  width: 75%;
+  margin: 10px 0;
+}
+.CaseStudies-text p {
+  line-height: 2.5;
+  width: 80%;
+  margin: 0 0 20px;
+}
+.CaseStudies-text .btn,
+.CaseStudies-2-text .btn {
+  background-color: #3c409f;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+
+.CaseStudies-2-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CaseStudies-2-text img {
+  width: 150px;
+}
+.CaseStudies-2-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 0;
+}
+.CaseStudies-2-text {
+  text-align: center;
+  width: 90%;
+  line-height: 2;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .CaseStudies--2 {
+    flex-direction: column;
+    padding: 30px 30px;
+    margin: 50px 0;
+  }
+  .CaseStudies--1 {
+    flex-direction: column-reverse;
+  }
+  .CaseStudies-text h3,
+  .CaseStudies-text p,
+  .CaseStudies-2-text {
+    width: auto;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .CaseStudies--2 {
+    flex-direction: column;
+    padding: 30px 30px;
+    margin: 50px 0;
+  }
+  .CaseStudies--1 {
+    flex-direction: column-reverse;
+  }
+  .CaseStudies-text h3,
+  .CaseStudies-text p,
+  .CaseStudies-2-text {
+    width: auto;
+  }
+}

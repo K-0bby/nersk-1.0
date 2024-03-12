@@ -46,3 +46,13 @@
   height: 30px;
   padding: 5px 30px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .bottom p {
+    width: auto;
+    text-align: center;
+  }
+}

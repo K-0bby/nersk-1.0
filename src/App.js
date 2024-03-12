@@ -7,9 +7,8 @@ import Footer from './components/footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <Index />
-      {/* <br /> */}
       <Services />
       <Software />
       <Ai />

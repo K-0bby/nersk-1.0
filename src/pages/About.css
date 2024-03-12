@@ -8,6 +8,7 @@
   background-size: cover;
   background-position: center;
   height: 40vh;
+  padding: 10px 0;
 }
 h1 {
   font-family: "Inter";
@@ -24,24 +25,20 @@ h1 {
 }
 
 .about-content img {
-  width: 200vw;
-  height: 350px;
   object-fit: cover;
 }
 .about-content p {
-  font-family: "Montserrat";
   line-height: 2.5;
 }
 .about .btn {
   position: relative;
-  top: -180px;
-  left: 700px;
+  top: 0;
+  left: 0;
   font-family: "Inter";
   font-weight: 700;
   color: #3c409f;
 }
 .ctn {
-  font-family: "Montserrat";
   background-color: #3c409f;
   display: flex;
   justify-content: space-around;
@@ -50,41 +47,43 @@ h1 {
   padding: 50px 0;
   width: 40vw;
   position: relative;
-  top: -130px;
-  left: 550px;
+  top: -120px;
+  left: 400px;
 }
 
 .about-content--2 {
   display: flex;
   flex-direction: row;
   padding: 0 30px;
-  margin: 0 0 50px;
+  margin: 10px 0 50px;
   gap: 30px;
 }
-.about-content--2 img {
-  width: 100vw;
-  height: 500px;
+.about-content--2 img,
+.about-content--3 img {
   object-fit: cover;
 }
 
-.content-text h5 {
+.content-text h5,
+.about-content-text h5 {
   color: #3c409f;
   margin: 10px 0;
 }
-.content-text h3 {
+.content-text h3,
+.about-content-text h3 {
   font-size: 35px;
   width: 75%;
   margin: 10px 0;
 }
-.content-text p {
+.content-text p,
+.about-content-text p {
   line-height: 2.5;
-  width: 70%;
+  width: 80%;
   margin: 0 0 20px;
 }
 
-.content-text span:nth-child(5) {
+/* .content-text span:nth-child(5) {
   display: flex;
-  width: 50%;
+  width: 43%;
   height: 40px;
   background-color: #3c409f;
   color: #fff;
@@ -95,7 +94,7 @@ h1 {
 }
 .content-text span:nth-child(7) {
   display: flex;
-  width: 60%;
+  width: 53%;
   height: 40px;
   background-color: #3c409f;
   color: #fff;
@@ -103,4 +102,183 @@ h1 {
   font-weight: 700;
   margin: 10px 0;
   align-items: flex-end;
+} */
+.about-content--3,
+.about-content--4 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 30px;
+  margin: 50px 0;
+}
+.about-content-text {
+  padding: 20px 0;
+}
+.about-content-text .btn,
+.about-content--4-text .btn {
+  background-color: #3c409f;
+  color: #fff;
+  padding: 10px 10px;
+  font-size: 16px;
+}
+.about-content--4-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-content--4-text img {
+  width: 150px;
+}
+.about-content--4-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 0;
+}
+.about-content--4-text p {
+  text-align: center;
+  width: 90%;
+  line-height: 2;
+  margin: 10px 0;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+.testimonials h5 {
+  color: #3c409f;
+  font-size: 14px;
+}
+.testimonials h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+.testimonials img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  object-fit: cover;
+  margin: 15px 0;
+}
+.testimonials p {
+  font-size: 18px;
+  text-align: center;
+  width: 50%;
+  line-height: 1.8;
+}
+.testimonials h3 {
+  font-size: 25px;
+  margin: 10px;
+}
+.testimonials p:nth-child(6) {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .nav {
+    height: auto;
+  }
+  .about-content {
+    flex-direction: column;
+    width: auto;
+  }
+  .ctn {
+    left: 0;
+    top: -20px;
+    width: auto;
+  }
+  .about-content--2 {
+    flex-direction: column;
+  }
+  .content-text h3,
+  .about-content-text h3 {
+    width: auto;
+  }
+  .content-text p,
+  .about-content-text p {
+    width: auto;
+  }
+  .about-content--3,
+  .about-content--4 {
+    flex-direction: column;
+  }
+  .content-text span:nth-child(5) {
+    padding: 10px 0 0 120px;
+    width: auto;
+  }
+  .about-content--4-text img {
+    width: 120px;
+    margin: 10px 0;
+  }
+  .testimonials h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .testimonials img {
+    width: 120px;
+    height: 120px;
+  }
+  .testimonials p {
+    width: auto;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .testimonials h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .nav {
+    height: auto;
+  }
+  .about-content {
+    flex-direction: column;
+    width: auto;
+  }
+  .ctn {
+    left: 0;
+    top: -20px;
+    width: auto;
+  }
+  .about-content--2 {
+    flex-direction: column;
+  }
+  .content-text h3,
+  .about-content-text h3 {
+    width: auto;
+  }
+  .content-text p,
+  .about-content-text p {
+    width: auto;
+  }
+  .about-content--3,
+  .about-content--4 {
+    flex-direction: column;
+  }
+  .content-text span:nth-child(5) {
+    padding: 10px 0 0 120px;
+    width: auto;
+  }
+  .about-content--4-text img {
+    width: 120px;
+    margin: 10px 0;
+  }
+  .testimonials h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .testimonials img {
+    width: 120px;
+    height: 120px;
+  }
+  .testimonials p {
+    width: auto;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  .testimonials h3 {
+    font-size: 18px;
+  }
 }

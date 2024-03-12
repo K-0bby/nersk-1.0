@@ -1,7 +1,9 @@
 .home {
   background: url(../images/black-scientists-fotor-20231127115247.png);
   background-size: cover;
+  background-position: center;
   font-family: "Inter";
+  padding: 10px 0;
 }
 .content {
   display: flex;
@@ -23,9 +25,35 @@ span {
   font-size: 14px;
   margin-bottom: 10px;
 }
-.content a {
+.content .home-btn {
   background-color: #e4e755;
   padding: 10px 20px;
   width: 120px;
   color: #fff;
+}
+.socials-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 0 100px 0;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.socials-list li a {
+  color: #fff;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .content {
+    margin: 100px 10px;
+    width: auto;
+    justify-content: flex-start;
+  }
+  .socials-list {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto 10px;
+    padding: 0;
+  }
 }

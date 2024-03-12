@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './navbar.css';
-import '../index.css';
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import './navbar.css'
+import '../index.css'
 
-const Navbar = () => {
+const Navbar = () => { 
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -19,9 +19,9 @@ const Navbar = () => {
         </Link>
       </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/Products" onClick={toggleMenu}>Products</Link></li>
-          <li><Link to="/Agencies" onClick={toggleMenu}>Agencies</Link></li>
-          <li><Link to="/Attorneys" onClick={toggleMenu}>Attorneys</Link></li>
+          <li><Link to="/" onClick={toggleMenu}>Products</Link></li>
+          <li><Link to="/" onClick={toggleMenu}>Agencies</Link></li>
+          <li><Link to="/" onClick={toggleMenu}>Attorneys</Link></li>
           <li><Link to="/CaseStudies" onClick={toggleMenu}>Case Studies</Link></li>
           <li><Link to="/About" onClick={toggleMenu}>About</Link></li>
         </ul>

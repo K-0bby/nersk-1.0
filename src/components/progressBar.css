@@ -1,0 +1,19 @@
+.progressBarContainer {
+  margin: 20px 0;
+  color: #fff;
+}
+
+.progressBar {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.percentageText {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
