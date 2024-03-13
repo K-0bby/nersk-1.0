@@ -5,7 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import '../index.css'
-import './Home.css'
+import './home.css'
 
 const Home = () => {
   return (
