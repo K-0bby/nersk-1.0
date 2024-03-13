@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/navbar'
+import Navbar from '../components/NavbarLight_Theme/navbar'
 import { Link } from 'react-router-dom'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import '../index.css'
-import './home.css'
+import './Home.css'
 
-const index = () => {
+const Home = () => {
   return (
     <section className="home">
         <Navbar /> 
@@ -43,4 +43,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Home

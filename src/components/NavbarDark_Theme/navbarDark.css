@@ -1,0 +1,94 @@
+.navbarDark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  padding: 0 20px;
+}
+.navbarDark .nav-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.navbarDark .nav-logo h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+}
+.navbarDark .nav-logo p {
+  font-size: 10px;
+  color: #000;
+}
+.navbarDark .nav-links {
+  display: flex;
+  gap: 25px;
+}
+.navbarDark .nav-links li a {
+  color: #000;
+}
+.navbarDark .button {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+}
+.navbarDark .button a {
+  color: #fff;
+}
+.navbarDark .mobileMenuIcon {
+  display: none;
+  cursor: pointer;
+}
+.navbarDark .mobileMenuIcon.open .bar1 {
+  transform: rotate(-45deg) translate(-4px, 3px);
+}
+.navbarDark .mobileMenuIcon.open .bar2 {
+  opacity: 0;
+}
+.navbarDark .mobileMenuIcon.open .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.navbarDark .bar1,
+.navbarDark .bar2,
+.navbarDark .bar3 {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    gap: 5px;
+  }
+  .nav-logo h1 {
+    font-size: 18px;
+  }
+  .nav-logo p {
+    font-size: 7px;
+  }
+  .navbarDark .mobileMenuIcon {
+    display: block;
+  }
+
+  .navbarDark .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background-color: #fffafa;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    padding: 5px;
+  }
+}

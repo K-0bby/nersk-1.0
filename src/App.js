@@ -1,14 +1,14 @@
 import './index.css';
-import Index from './pages/index'
-import Services from './components/Services'
-import Software from './components/software'
-import Ai from './components/Ai'
-import Footer from './components/footer'
+import Home from './pages/Home'
+import Services from './components/Services_Section/Services'
+import Software from './components/Software_Section/software'
+import Ai from './components/AI_Section/Ai'
+import Footer from './components/Footer/footer'
 
 function App() {
   return (
     <div className="App"> 
-      <Index />
+      <Home />
       <Services />
       <Software />
       <Ai />

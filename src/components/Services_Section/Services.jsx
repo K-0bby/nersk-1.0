@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../index.css'
-import './Ai.css'
+import '../../index.css'
+import './Services.css'
 
-const Ai = () => {
+const Services = () => {
   return (
-    <section className="section--4">
-        <h3>Ai Services</h3>
-        <h5>From GHC 500 per pack</h5>
-        <p>Save GHC 45 on purchase</p>
+    <section className="section--2">
+        <h3>Design Services</h3>
+        <h5>From GHC 2500 per pack</h5>
+        <p>Save GHC 345 on purchase</p>
         <div className="bottom">
           <div className="buttons">
           <Link to='/' className='btn-1'>Order Now</Link>
@@ -21,4 +21,4 @@ const Ai = () => {
   )
 }
 
-export default Ai
+export default Services

@@ -61,6 +61,12 @@
   .navbar {
     gap: 5px;
   }
+  .nav-logo h1 {
+    font-size: 18px;
+  }
+  .nav-logo p {
+    font-size: 7px;
+  }
   .mobileMenuIcon {
     display: block;
   }

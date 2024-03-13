@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from '../components/navbar'
+import Navbar from '../components/NavbarDark_Theme/navbarDark'
 import Frame from '../images/Frame 82.jpg'
 import card1 from '../images/Rectangle 65.png'
 import card2 from '../images/Rectangle 66.png'
@@ -10,12 +10,12 @@ import './SoftwareServices.css'
 const SoftwareService = () => {
   return (
     <div className='SoftwareServicePage'>
-        <Navbar style={{color: '#000'}}/>
+        <Navbar />
         <div className="contentPage">
           <h1 className='title'>Software Development Services</h1>
           <img src={Frame} alt="" />
           <div className="btn">
-          <Link to='/SoftwareServices' className='btn-1'>Order Now</Link>
+          <Link to='/' className='btn-1'>Order Now</Link>
           <Link to='/' className='btn-2'>Try Free Version</Link>
           </div>
           <p>

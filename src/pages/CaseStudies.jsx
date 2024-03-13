@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+import Navbar from '../components/NavbarLight_Theme/navbar'
+import Footer from '../components/Footer/footer'
 import { Link } from 'react-router-dom'
 import About3 from '../images/About-3.jpeg'
 import About4 from '../images/About-4.jpeg'
